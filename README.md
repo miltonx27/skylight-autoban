@@ -1,8 +1,8 @@
 # SKYLiGHT Auto-Ban for Nicotine+
 
-**Unofficial Nicotine+ plugin · v1.2.0 · GPL-3.0-or-later**
+**Unofficial Nicotine+ plugin · v1.2.0 · Apache-2.0**
 
-Automatically check selected Soulseek search-result users for a configurable profile signature, then ban and optionally ignore matching accounts. Made for recurring profiles that appear under changing usernames.
+Automatically check selected Soulseek search-result users for a configurable profile signature, then ban and optionally ignore matching accounts. Made for recurring profile descriptions that appear under changing usernames.
 
 > Unofficial community project. Not affiliated with or endorsed by Nicotine+ or Soulseek.
 
@@ -34,7 +34,7 @@ Automatically check selected Soulseek search-result users for a configurable pro
 
 ## How it works
 
-1. A search result path contains the configured release marker (default: `DASH`).
+1. A search-result path contains the configured release marker (default: `DASH`).
 2. The plugin queues that username and requests their profile.
 3. The description is compared with configured phrases.
 4. When a phrase matches, the username is added to Nicotine+'s persistent ban list and, by default, its ignore list.
@@ -51,9 +51,7 @@ Automatically check selected Soulseek search-result users for a configurable pro
 
 ## Screenshot
 
-The following screenshot shows the successful automatic profile detection and ban action confirmed by the maintainer.
-
-![Redacted Nicotine+ log showing automatic profile detection](assets/detection-confirmed.png)
+The screenshot in [assets/detection-confirmed.png](assets/detection-confirmed.png) shows the successful automatic profile detection and ban action confirmed by the maintainer.
 
 ## Troubleshooting
 
@@ -64,11 +62,11 @@ If no profile checks start, confirm the plugin is enabled and the path includes 
 ## Limitations and privacy
 
 - A user must appear in a search result with a matching path and return profile information before the plugin can detect them.
-- It bans usernames, not IP addresses. New usernames are detected as they appear.
+- The plugin bans usernames, not IP addresses. New usernames are detected as they appear.
 - Changed profile wording or release tags may evade the default rules.
 - The plugin makes no external HTTP requests and sends no telemetry.
 - Review settings carefully to avoid unintended matches.
 
 ## License
 
-GPL-3.0-or-later. See [LICENSE](LICENSE).
+Apache-2.0. See [LICENSE](LICENSE).
