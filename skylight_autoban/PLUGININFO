@@ -1,0 +1,4 @@
+Version = "1.2.0"
+Authors = ["miltonx27"]
+Name = "SKYLiGHT Auto-Ban"
+Description = "Automatically checks profile descriptions for configured signatures and bans/ignores matching users."
