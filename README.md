@@ -51,7 +51,7 @@ Automatically check selected Soulseek search-result users for a configurable pro
 
 ## Screenshot
 
-The screenshot in [assets/detection-confirmed.png](assets/detection-confirmed.png) shows the successful automatic profile detection and ban action confirmed by the maintainer.
+The screenshot in [assets/detection-confirmed.webp](assets/detection-confirmed.webp) shows the successful automatic profile detection and ban action confirmed by the maintainer.
 
 ## Troubleshooting
 
